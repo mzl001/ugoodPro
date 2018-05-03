@@ -27,6 +27,14 @@ mybatis:
 #  config-locations: classpath:mybatis-config.xml
   mapper-locations: classpath*:com/ugood/dao/*/*.xml
 #  type-aliases-package: com.ugood.pojo
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
 server:
-  port: 8702
+  port: 8701
 foo: mzl002
