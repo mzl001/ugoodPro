@@ -10,9 +10,25 @@ spring:
           searchPaths: config-repo
           username: 1276581914@qq.com
           password: Mzl0923@ylm.com
+    bus:
+      refresh:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: mzl
+    password: 123456
 server:
   port: 8888
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
