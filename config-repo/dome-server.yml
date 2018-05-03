@@ -29,4 +29,4 @@ mybatis:
 #  type-aliases-package: com.ugood.pojo
 server:
   port: 8701
-foo: mzl003
+foo: mzl004
