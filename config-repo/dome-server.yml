@@ -23,6 +23,16 @@ spring:
       #nodes:
 #127.0.0.1:26379,127.0.0.1:26479,127.0.0.1:26579 #哨兵的配置列表
       timeout: 5000 #连接超时时间（毫秒）
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: mzl
+    password: 123456
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","bus-refresh"]
 mybatis:
 #  config-locations: classpath:mybatis-config.xml
   mapper-locations: classpath*:com/ugood/dao/*/*.xml
