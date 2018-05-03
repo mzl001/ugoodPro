@@ -37,4 +37,4 @@ management:
         allowed-methods: "*"
 server:
   port: 8701
-foo: mzl002
+foo: mzl003
