@@ -29,5 +29,4 @@ mybatis:
 #  type-aliases-package: com.ugood.pojo
 server:
   port: 8701
-  context-path: /dome
 foo: mzl003
