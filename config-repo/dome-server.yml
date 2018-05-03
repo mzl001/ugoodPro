@@ -30,3 +30,4 @@ mybatis:
 server:
   port: 8701
   context-path: /dome
+foo: mzl001
