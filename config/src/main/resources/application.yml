@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: dev
+      server:
+        git:
+          uri: https://github.com/mzl001/ugoodPro
+          searchPaths: config-repo
+          username: 1276581914@qq.com
+          password: Mzl0923@ylm.com
+server:
+  port: 8888
