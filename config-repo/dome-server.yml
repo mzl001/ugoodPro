@@ -28,5 +28,5 @@ mybatis:
   mapper-locations: classpath*:com/ugood/dao/*/*.xml
 #  type-aliases-package: com.ugood.pojo
 server:
-  port: 8702
+  port: 8701
 foo: mzl003
