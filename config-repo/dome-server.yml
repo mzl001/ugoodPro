@@ -38,3 +38,9 @@ management:
 server:
   port: 8701
 foo: mzl003
+spring:
+  zipkin:
+    base-url: http://localhost:8711
+  sleuth:
+    sampler:
+      percentage: 1.0
