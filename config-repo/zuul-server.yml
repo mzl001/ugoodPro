@@ -1,0 +1,7 @@
+server:
+  port: 8769
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: dome-server
